@@ -1,0 +1,103 @@
+.header{
+    height: 1.01rem;
+    color: #fff;
+    background: #06c1ae;
+    border-bottom: 1px solid #21897d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    position: relative;
+}
+.header .nav-left{
+    height: 1.01rem;
+    line-height: 1.01rem;
+}
+.header .react{
+    display: block;
+    color: inherit;
+    height: 100%;
+}
+.header .nav-city{
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: .2rem;
+    margin-left: .2rem;
+    font-size: .32rem;
+}
+
+.header .icon-down{
+    padding-left: 0.12rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-size:0.25rem;
+}
+.header .icon-my{
+    display: block;
+    margin: auto;
+    margin-bottom: .12rem;
+    font-size: .4rem;
+}
+.header .icon-search {
+    position: absolute;
+    left: .15rem;
+    font-size: .4rem;
+    color: #fff;
+}
+
+
+.header .box-search {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    border-radius: .06rem;
+    background: rgba(0,0,0,.15);
+    height: .64rem;
+    line-height: .64rem;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    margin-top: .2rem;
+}
+.header .box-search span {
+    font-size: .26rem;
+    color: #68dbce;
+    padding-left: .6rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+}
+.header .single-line{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.header .nav-wrap-right{
+    height: 100%;
+}
+
+
+.nav-wrap-right a {
+    display: inline-block;
+    height: 100%;
+    line-height: 1rem;
+    text-align: center;
+    width: .94rem;
+}
+.nav-wrap-right a:last-child {
+    margin-right: .04rem;
+}
+.nav-btn {
+    display: inline-block;
+    font-size: .2rem;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
